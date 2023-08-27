@@ -11,11 +11,11 @@ features to support businesses of all sizes in their online ventures.
 
 ## Features
 
--**Product Management**: An intuitive interface for administrators to manage product listings, including details, images, and variants.
--**Shopping Cart and Checkout**: A seamless shopping cart experience with integrated checkout and support for multiple payment gateways.
--**Order Processing**: Allow mchanging status of order for administrators and customers.
--**Search and Filtering**: Advanced search and filtering options to help customers find products quickly.
--**Responsive Design**: A responsive user interface that adapts to various devices and screen sizes.
+- **Product Management**: An intuitive interface for administrators to manage product listings, including details, images, and variants.
+- **Shopping Cart and Checkout**: A seamless shopping cart experience with integrated checkout and support for multiple payment gateways.
+- **Order Processing**: Allow mchanging status of order for administrators and customers.
+- **Search and Filtering**: Advanced search and filtering options to help customers find products quickly.
+- **Responsive Design**: A responsive user interface that adapts to various devices and screen sizes.
 
 
 ## Contact
