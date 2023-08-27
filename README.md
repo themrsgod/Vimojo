@@ -21,8 +21,9 @@ Responsive Design: A responsive user interface that adapts to various devices an
 ## Contact
 If you have any questions or encounter issues, please feel free to reach out to our team:
 
-Vivian (themrs@gmail.com)
-Johnson (johnsonmasino@gmail.com)
-Moses (Kisha.dev@gmail.com)
+- Vivian (themrs@gmail.com)
+- Johnson (johnsonmasino@gmail.com)
+- Moses (Kisha.dev@gmail.com)
+  
 We appreciate your interest in the Vimojo Ecommerce Platform project and welcome your collaboration and feedback!
 
