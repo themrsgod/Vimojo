@@ -23,7 +23,7 @@ If you have any questions or encounter issues, please feel free to reach out to 
 
 - Vivian (themrsgod@gmail.com)
 - Johnson (johnsonmasino@gmail.com)
-- Moses (Kisha.dev@gmail.com)
+- Moses (kishea.dev@gmail.com)
   
 We appreciate your interest in the Vimojo Ecommerce Platform project and welcome your collaboration and feedback!
 
