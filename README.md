@@ -21,7 +21,7 @@ features to support businesses of all sizes in their online ventures.
 ## Contact
 If you have any questions or encounter issues, please feel free to reach out to our team:
 
-- Vivian (themrs@gmail.com)
+- Vivian (themrsgod@gmail.com)
 - Johnson (johnsonmasino@gmail.com)
 - Moses (Kisha.dev@gmail.com)
   
