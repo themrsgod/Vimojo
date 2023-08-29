@@ -1,32 +1,81 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>VIMOJO</title>
-    <link rel="stylesheets" href="style.css" type="text/css" />
-  </head>
-  <body>
-    <header class="header">
+
+<head>
+  <title>VIMOJO</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="product.css" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <header class="header-container">
+    <div class="header">
       <!-- logo -->
       <div class="logo">
-        <img src="images/logo.png" />
+
       </div>
       <!-- search input -->
       <div class="search-bar">
         <div class="search-text">
-          SEARCH
-          
+          <div>SEARCH</div>
+          <input placeholder="search products ..." type="text" />
+          <button>
+            GO
+          </button>
         </div>
       </div>
       <!-- links -->
-      <div>LINKS</div>
+      <div class="terms">
+        <table>
+          <tr>
+            <th>
+              <a href="#">HOME</a>
+            </th>
+            <th>
+              <a href="#">TERMS</a>
+            </th>
+          </tr>
+        </table>
+      </div>
       <!-- cart button -->
-      <div>CART BUTTON</div>
-    </header>
-    <main>
-        
-    </main>
-    <footer>
-        <p>coprights &copy; vimojo. </p>
-    </footer>
-  </body>
+      <div class="cart">
+        <button>
+          <div class="circle">4</div>
+          <img src="images/cart.jpg" />
+        </button>
+      </div>
+    </div>
+  </header>
+  <main>
+
+   <div class="products">
+
+   </div>
+
+
+  </main>
+  <footer>
+    <p>coprights &copy; vimojo. </p>
+  </footer>
+  <script>
+    $(document).ready(function () {
+      // Loop to generate and insert product cards
+      for (let i = 1; i <= 5; i++) {
+        const productCard = `
+          <div class="product-card">
+            <img src="./images/image-${i}.jpg" alt="Product Image" class="product-image">
+            <div class="product-info">
+              <p class="product-price">$99.99</p>
+              <button class="buy-button">Buy Now</button>
+            </div>
+          </div>
+        `;
+
+        $('.products').append(productCard);
+      }
+    });
+  </script>
+</body>
+
 </html>
