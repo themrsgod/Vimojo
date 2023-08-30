@@ -3,7 +3,7 @@
 {% block content %}
   <h1>Product Details</h1>
   <h2>{{ product.name }}</h2>
-  <img src="{{ product.image.url }}" alt="{{ product.name }} Image" />
+  <img src="{{ product.image }}" alt="{{ product.name }} Image" />
   <p>Price: ${{ product.price }}</p>
   <p>{{ product.description }}</p>
 
@@ -13,10 +13,51 @@
       <h3>Checkout with PayPal</h3>
       <p>Product: {{ product.name }}</p>
       <p>Price: ${{ product.price }}</p>
-      <!-- Add PayPal checkout integration here -->
+      <div id="paypal-button-container"></div>
     </div>
   </div>
-  <button id="paypalButton" class="modal-trigger">Buy with PayPal</button>
+  <button type="button" id="paypalButton" class="modal-trigger">Buy with PayPal</button>
+
+  <script>
+    // Add JavaScript to trigger modals and PayPal integration
+    const paypalModal = document.getElementById('paypalModal')
+    const paypalButton = document.getElementById('paypalButton')
+    
+    paypalButton.addEventListener('click', () => {
+      paypalModal.style.display = 'block'
+    
+      // Render PayPal button using the PayPal SDK
+      paypal
+        .Buttons({
+          createOrder: function (data, actions) {
+            return actions.order.create({
+              purchase_units: [
+                {
+                  amount: {
+                    value: '{{ product.price }}'
+                  }
+                }
+              ]
+            })
+          },
+          onApprove: function (data, actions) {
+            // Capture the transaction details
+            return actions.order.capture().then(function (details) {
+              // You can handle successful payment here
+              alert('Payment successful! Transaction ID: ' + details.id)
+            })
+          }
+        })
+        .render('#paypal-button-container')
+    })
+    
+    // Close the PayPal modal if clicked outside
+    window.addEventListener('click', (event) => {
+      if (event.target === paypalModal) {
+        paypalModal.style.display = 'none'
+      }
+    })
+  </script>
 
   <!-- Modal for Flutterwave Checkout -->
   <div id="flutterwaveModal" class="modal">
@@ -27,7 +68,7 @@
       <!-- Add Flutterwave checkout integration here -->
     </div>
   </div>
-  <button id="flutterwaveButton" class="modal-trigger">Buy with Flutterwave</button>
+  <button type="button" id="flutterwaveButton" class="modal-trigger">Buy with Flutterwave</button>
 
   <script>
     // Add JavaScript to trigger modals
