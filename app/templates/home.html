@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  <div class="slider">
+    <div class="slides">
+      <div class="slide">
+        <img src="{% static 'images/image-1.jpg' %}" alt="Image 1" />
+      </div>
+      <div class="slide">
+        <img src="{% static 'images/image-4.jpg'%}" alt="Image 2" />
+      </div>
+      <div class="slide">
+        <img src="{% static 'images/image-5.jpg'%}" alt="Image 3" />
+      </div>
+    </div>
+    <button class="prev">&#8249;</button>
+    <button class="next">&#8250;</button>
+  </div>
+
+  <div class="products"></div>
+{% endblock %}

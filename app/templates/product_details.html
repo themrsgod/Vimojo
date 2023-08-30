@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Product Details</h1>
+  <h2>{{ product.name }}</h2>
+  <img src="{{ product.image.url }}" alt="{{ product.name }} Image" />
+  <p>Price: ${{ product.price }}</p>
+  <p>{{ product.description }}</p>
+
+  <!-- Modal for PayPal Checkout -->
+  <div id="paypalModal" class="modal">
+    <div class="modal-content">
+      <h3>Checkout with PayPal</h3>
+      <p>Product: {{ product.name }}</p>
+      <p>Price: ${{ product.price }}</p>
+      <!-- Add PayPal checkout integration here -->
+    </div>
+  </div>
+  <button id="paypalButton" class="modal-trigger">Buy with PayPal</button>
+
+  <!-- Modal for Flutterwave Checkout -->
+  <div id="flutterwaveModal" class="modal">
+    <div class="modal-content">
+      <h3>Checkout with Flutterwave</h3>
+      <p>Product: {{ product.name }}</p>
+      <p>Price: ${{ product.price }}</p>
+      <!-- Add Flutterwave checkout integration here -->
+    </div>
+  </div>
+  <button id="flutterwaveButton" class="modal-trigger">Buy with Flutterwave</button>
+
+  <script>
+    // Add JavaScript to trigger modals
+    const paypalModal = document.getElementById('paypalModal')
+    const flutterwaveModal = document.getElementById('flutterwaveModal')
+    const paypalButton = document.getElementById('paypalButton')
+    const flutterwaveButton = document.getElementById('flutterwaveButton')
+    
+    paypalButton.addEventListener('click', () => {
+      paypalModal.style.display = 'block'
+    })
+    
+    flutterwaveButton.addEventListener('click', () => {
+      flutterwaveModal.style.display = 'block'
+    })
+    
+    // Close the modals if clicked outside
+    window.addEventListener('click', (event) => {
+      if (event.target === paypalModal) {
+        paypalModal.style.display = 'none'
+      } else if (event.target === flutterwaveModal) {
+        flutterwaveModal.style.display = 'none'
+      }
+    })
+  </script>
+{% endblock %}

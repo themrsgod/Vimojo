@@ -1,0 +1,96 @@
+{% load static %} 
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>VIMOJO</title>
+  <link rel="stylesheet" href="{% static 'style.css' %}" type="text/css" />
+  <link rel="stylesheet" href="{% static 'product.css' %}" type="text/css" />
+  <link rel="stylesheet" href="{% static 'slide.css' %}" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <header class="header-container">
+    <div class="header">
+      <!-- logo -->
+      <div class="logo">
+
+      </div>
+      <!-- search input -->
+      <div class="search-bar">
+        <div class="search-text">
+          <div>SEARCH</div>
+          <input placeholder="search products ..." type="text" />
+          <button>
+            GO
+          </button>
+        </div>
+      </div>
+      <!-- links -->
+      <div class="terms">
+        <table>
+          <tr>
+            <th>
+              <a href="#">HOME</a>
+            </th>
+            <th>
+              <a href="#">TERMS</a>
+            </th>
+          </tr>
+        </table>
+      </div>
+      <!-- cart button -->
+      <div class="cart">
+        <button>
+          <div class="circle">4</div>
+          <img src="{% static 'images/cart.jpg' %}" />
+        </button>
+      </div>
+    </div>
+  </header>
+  <main>
+    {% block content %}
+    {% endblock content %}
+  </main>
+  <footer>
+    <p>coprights &copy; vimojo. </p>
+  </footer>
+  <script>
+    $(document).ready(function () {
+        $(document).ready(function () {
+            // Loop to generate and insert product cards
+            for (let i = 1; i <= 5; i++) {
+              const productCard = `
+                <div class="product-card">
+                  <img src="{% static 'images/image-' %}${i}.jpg" alt="Product Image" class="product-image">
+                  <div class="product-info">
+                    <p class="product-price">$99.99</p>
+                    <button class="buy-button" data-product-id="${i}">Buy Now</button>
+                  </div>
+                </div>
+              `;
+        
+              $('.products').append(productCard);
+            }
+        
+        
+                // Event handler for Buy Now button
+            $('.buy-button').click(function () {
+                const productId = $(this).data('product-id');
+                // Redirect to product details page with the productId
+                window.location.href = `/product-details/${productId}/`;
+            });
+        
+        });
+        
+        
+        });
+
+
+  </script>
+  <script src="{% static 'slide.js' %}"></script>
+
+</body>
+
+</html>
