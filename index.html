@@ -5,6 +5,7 @@
   <title>VIMOJO</title>
   <link rel="stylesheet" href="style.css" type="text/css" />
   <link rel="stylesheet" href="product.css" type="text/css" />
+  <link rel="stylesheet" href="slide.css" type="text/css" />
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
@@ -49,9 +50,26 @@
   </header>
   <main>
 
-   <div class="products">
+    <div class="slider">
+      <div class="slides">
+        <div class="slide">
+          <img src="images/image-1.jpg" alt="Image 1">
+        </div>
+        <div class="slide">
+          <img src="images/image-4.jpg" alt="Image 2">
+        </div>
+        <div class="slide">
+          <img src="images/image-5.jpg" alt="Image 3">
+        </div>
+      </div>
+      <button class="prev">&#8249;</button>
+      <button class="next">&#8250;</button>
+    </div>
 
-   </div>
+
+    <div class="products">
+
+    </div>
 
 
   </main>
@@ -76,6 +94,8 @@
       }
     });
   </script>
+  <script src="slide.js"></script>
+
 </body>
 
 </html>
