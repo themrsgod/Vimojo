@@ -18,7 +18,7 @@
       border-radius: 8px;
       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
       margin-bottom: 20px;
-      width: 40%;
+      width: 480px;
     }
 
     .product-price {
@@ -67,11 +67,18 @@
   </style>
 {% endblock %}
 {% block content %}
-  <h1>Product Details</h1>
-  <h2>{{ product.name }}</h2>
-  <img src="{% static 'images/image-4.jpg' %}" alt="{{ product.name }} Image" />
-  <p>Price: ${{ product.price }}</p>
-  <p>{{ product.description }}</p>
+
+
+  <div class="product-details">
+    <h1 class="product-name">{{ product.name }}</h1>
+    <img src="{% static 'images/image-4.jpg' %}" alt="{{ product.name }} Image" class="product-image" />
+
+    <p class="product-price">Price: ${{ product.price }}</p>
+    <p class="product-description">{{ product.description }}</p>
+
+    <button type="button" id="paypalButton" class="modal-trigger">Buy with PayPal</button>
+    <button type="button" id="flutterwaveButton" class="modal-trigger">Buy with Flutterwave</button>
+  </div>
 
   <!-- Modal for PayPal Checkout -->
   <div id="paypalModal" class="modal">
@@ -82,7 +89,6 @@
       <div id="paypal-button-container"></div>
     </div>
   </div>
-  <button type="button" id="paypalButton" class="modal-trigger">Buy with PayPal</button>
 
   <!-- Modal for Flutterwave Checkout -->
   <div id="flutterwaveModal" class="modal">
@@ -93,7 +99,6 @@
       <!-- Add Flutterwave checkout integration here -->
     </div>
   </div>
-  <button type="button" id="flutterwaveButton" class="modal-trigger">Buy with Flutterwave</button>
 
   <script>
     // Add JavaScript to trigger modals and PayPal/Flutterwave integration
