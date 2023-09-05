@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block content %}
 
 <style>
@@ -18,13 +19,16 @@
 </div>
 <main class="members-section">
     <div>
-        <h3>Moses Kisya</h3>
+        <h1>Moses Kisya</h1>
+        <img class="" src="{% static 'images/moses.jfif' %}" />
     </div>
     <div>
-        <h3>Vivian Heavenian</h3>
+        <h1>Vivian Heavenian</h1>
+        <img class="" src="{% static 'images/vivian.jfif' %}" />
     </div>
     <div>
-        <h3>Johnson Masino</h3>
+        <h1>Johnson Masino</h1>
+        <img class="" src="{% static 'images/masino.jfif' %}" />
     </div>
 </main>
 {% endblock content %}
