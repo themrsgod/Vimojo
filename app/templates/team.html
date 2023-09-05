@@ -6,14 +6,31 @@
     .members-section {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        position: center;
+        background-color: rgb(254, 233, 217);
     }
 
-    .title {
-        color: red;
+    .intro {
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        color: #900e0e;
+        position: center;
+    }
+
+    .name {
+        font-family: 'Arial', sans-serif;
+        font-size: 30px;
+        color: #900e0e;
+    }
+
+    .text {
+        font-size: 18px;
+        color: #900e0e;
     }
 
     .images {
-        width: 90%;
+        width: 98%;
         height: 70%;
     }
 
@@ -24,13 +41,15 @@
 
 </style>
 
-<h1>Meet Our Team of Developers</h1>
+<div class="intro">
+    <h1>Meet Our Developer Team</h1>
+</div>
 
-<main class="members-section">
+<div class="members-section">
     <div class="images-div">
-        <h2>Moses Kisya</h2>
+        <h2 class="name">Moses Kisya:</h2>
         <img class="images" src="{% static 'images/moses.jfif' %}" />
-        <p>
+        <p class="text">
             <b>Moses</b> is an Ugandan Software Engineer with many years of 
             experience in building and launching tech projects.<br>He has 
             worked in many tech companies mostly working with PHP and 
@@ -38,27 +57,54 @@
             Software Engineering Program.<br>For <b>Vimojo</b> project, he is focused mainly 
             on the overall development process.
         </p>
+        <p class="text">
+            <b>GitHub Page:<a class="text" href="https://github.com/kishea-dev">github.com/kishea-dev</a></b>
+        </p>
+        <p class="text">
+            <b>LinkIn Page:<a class="text" href="https://linkedin.com/in/moses-kisya">linkedin.com/in/moses-kisya</a></b>
+        </p>
+        <p class="text">
+            <b class="text">Mail:<a class="text" href="mailto:kishea.dev@gmail.com">kishea.dev@gmail.com</a></b>
+        </p>
     </div>
     <div class="images-div">
-        <h2>Vivian Heavenian</h2>
+        <h2 class="name">Vivian Heavenian:</h2>
         <img class="images" src="{% static 'images/vivian.jfif' %}" />
-        <p>
+        <p class="text">
             <b>Vivian</b> is a Ghanian passionate software engineer who specializes mostly 
             in front end development.<br>She has a startup company she is running currently. 
             She is enrolled in the<a href="https://www.alxafrica.com/" class="alx">ALX Africa</a>
             Software Engineering Program.<br>For this project she specializes in the front end development.
         </p>
+        <p class="text">
+            <b>GitHub Page:<a class="text" href="https://github.com/themrsgod">github.com/themrsgod</a></b>
+        </p>
+        <p class="text">
+            <b>LinkIn Page:<a class="text" href="https://www.linkedin.com/in/mrsgod">linkedin.com/in/mrsgod</a></b>
+        </p>
+        <p class="text">
+            <b>Mail:<a class="text" href="mailto:themrsgod@gmail.com">themrsgod@gmail.com</a></b>
+        </p>
     </div>
     <div class="images-div">
-        <h2>Johnson Masino</h2>
-        <img class="images" src="{% static 'images/masino.jfif' %}" />
-        <p>
-            <b>Johnson</b> is a Nigerian Fullstack deeloper but his interest and expertise in Python 
+        <h2 class="name">Johnson Masino:</h2>
+        <img class="images" src="{% static 'images/masino.jpeg' %}" />
+        <p class="text">
+            <b>Johnson</b> is a Nigerian Fullstack developer but his interest and expertise in Python 
             development has made him focus more on back end development.<br>He is also enrolled in 
             the<a href="https://www.alxafrica.com/" class="alx">ALX Africa</a>Software Engineering Program. 
             <br>He has a social tech company he is building currently and hopes to launch soon. For 
             <b>Vimojo</b> project, he is focused on back end development.
         </p>
+        <p class="text">
+            <b>GitHub Page:<a class="text" href="https://github.com/JohnsonMasino">github.com/JohnsonMasino</a></b>
+        </p>
+        <p class="text">
+            <b>LinkIn Page:<a class="text" href="https://www.linkedin.com/in/masino100">linkedin.com/in/masino100</a></b>
+        </p>
+        <p class="text">
+            <b>Mail:<a class="text" href="mailto:johnsonmasino@gmail.com">johnsonmasino@gmail.com</a></b>
+        </p>
     </div>
-</main>
+</div>
 {% endblock content %}
