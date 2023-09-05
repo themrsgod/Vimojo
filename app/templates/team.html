@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<style>
+    .members-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .title {
+        color: red;
+    }
+</style>
+<div class="title">
+    <h1>
+        Welcome to our team members page.
+    </h1>
+</div>
+<main class="members-section">
+    <div>
+        <h3>Moses Kisya</h3>
+    </div>
+    <div>
+        <h3>Vivian Heavenian</h3>
+    </div>
+    <div>
+        <h3>Johnson Masino</h3>
+    </div>
+</main>
+{% endblock content %}

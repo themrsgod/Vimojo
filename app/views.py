@@ -9,3 +9,7 @@ def product_details(request, product_id):
     product = get_object_or_404(Product, pk=product_id)
     context = {'product': product}
     return render(request, 'product_details.html', context)
+
+def teamMembers(request):
+    context = {}
+    return render(request, 'team.html', context)
