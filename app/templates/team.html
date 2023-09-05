@@ -11,24 +11,27 @@
     .title {
         color: red;
     }
+
+    .images {
+        max-width: 95%;
+        height: 80%;
+    }
 </style>
-<div class="title">
-    <h1>
-        Welcome to our team members page.
-    </h1>
-</div>
+
+<h1>Meet Our Team of Developers</h1>
+
 <main class="members-section">
-    <div>
-        <h1>Moses Kisya</h1>
-        <img class="" src="{% static 'images/moses.jfif' %}" />
+    <div class="images-div">
+        <h2>Moses Kisya</h2>
+        <img class="images" src="{% static 'images/moses.jfif' %}" />
     </div>
-    <div>
-        <h1>Vivian Heavenian</h1>
-        <img class="" src="{% static 'images/vivian.jfif' %}" />
+    <div class="images-div">
+        <h2>Vivian Heavenian</h2>
+        <img class="images" src="{% static 'images/vivian.jfif' %}" />
     </div>
-    <div>
-        <h1>Johnson Masino</h1>
-        <img class="" src="{% static 'images/masino.jfif' %}" />
+    <div class="images-div">
+        <h2>Johnson Masino</h2>
+        <img class="images" src="{% static 'images/masino.jfif' %}" />
     </div>
 </main>
 {% endblock content %}
