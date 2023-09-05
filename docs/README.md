@@ -3,6 +3,9 @@
 **Vi**vian **Mo**ses **Jo**hnson the origins of the platform name.
 In submission to an ALX project of a group.
 
+## About
+Vimojo was inspired by the quest to serve the public more remote products from remote areas around the worl which are not availably seen in other parts of the world. We invite business owners seeling unique prodects which are available to only in their niche to list such products inout page where customers around the world can know about them and use them for other productive activities or maybe for their personal uses.
+
 ## Introduction
 The Vimojo Ecommerce Platform is the result of a collaborative effort by our team of three developers: 
 Johnson, Vivian, and Moses. 
