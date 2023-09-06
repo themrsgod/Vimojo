@@ -1,6 +1,6 @@
 # Welcome to Vimojo
 
-![Vimojo Logo](../images/logo.png)
+![Vimojo Logo](/Vimojo/assets/logo.png)
 
 Vimojo is your gateway to unique products from remote areas around the world. We connect businesses selling niche products to customers globally, making these exclusive items accessible for various purposes.
 
@@ -33,7 +33,7 @@ The Vimojo Ecommerce Platform is the result of a collaborative effort by our tea
 
 ### Moses Kisya
 
-![Moses Kisya](../images/moses.jfif)
+![Moses Kisya](/Vimojo/assets/moses.jfif)
 
 Moses is an experienced Ugandan Software Engineer with a background in PHP and JavaScript development. He's a participant in [ALX Africa](https://www.alxafrica.com/) and plays a crucial role in overall development.
 
@@ -43,7 +43,7 @@ Moses is an experienced Ugandan Software Engineer with a background in PHP and J
 
 ### Vivian Heavenian
 
-![Image not found: link_to_vivian_image](../images/vivian.jfif "Image not found: link_to_vivian_image")
+![Image not found: link_to_vivian_image](/Vimojo/assets/vivian.jfif "Image not found: link_to_vivian_image")
 
 Vivian, a passionate Ghanaian software engineer, specializes in front-end development. She runs her startup and is part of the [ALX Africa](https://www.alxafrica.com/) program, focusing on front-end development for this project.
 
@@ -53,7 +53,7 @@ Vivian, a passionate Ghanaian software engineer, specializes in front-end develo
 
 ### Johnson Ugwuanyi (Masino)
 
-![Image not found: ../images/masino.png](../images/masino.jpeg "Image not found: ../images/masino.jpeg")
+![Image not found: /Vimojo/assets/masino.png](/Vimojo/assets/masino.jpeg "Image not found: /Vimojo/assets/masino.jpeg")
 
 Johnson, a Nigerian Fullstack developer, focuses on Python development. He's also enrolled in [ALX Africa](https://www.alxafrica.com/) and is dedicated to back-end development for Vimojo.
 
