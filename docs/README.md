@@ -31,19 +31,9 @@ The Vimojo Ecommerce Platform is the result of a collaborative effort by our tea
 
 ## Meet Our Team
 
-### Moses Kisya
+### Vivian Heavenian Dzrekey
 
-![Moses Kisya](/Vimojo/assets/moses.jfif)
-
-Moses is an experienced Ugandan Software Engineer with a background in PHP and JavaScript development. He's a participant in [ALX Africa](https://www.alxafrica.com/) and plays a crucial role in overall development.
-
-- **GitHub**: [kishea-dev](https://github.com/kishea-dev)
-- **LinkedIn**: [Moses Kisya](https://linkedin.com/in/moses-kisya)
-- **Email**: kishea.dev@gmail.com
-
-### Vivian Heavenian
-
-![Image not found: link_to_vivian_image](/Vimojo/assets/vivian.jfif "Image not found: link_to_vivian_image")
+<img src="/Vimojo/assets/vivian.jfif" width="48%" height="auto" />
 
 Vivian, a passionate Ghanaian software engineer, specializes in front-end development. She runs her startup and is part of the [ALX Africa](https://www.alxafrica.com/) program, focusing on front-end development for this project.
 
@@ -51,9 +41,19 @@ Vivian, a passionate Ghanaian software engineer, specializes in front-end develo
 - **LinkedIn**: [Vivian Heavenian](https://www.linkedin.com/in/mrsgod)
 - **Email**: themrsgod@gmail.com
 
+### Moses Kisya
+
+<img alt="Moses Kisya" src="/Vimojo/assets/moses.jfif"  width="48%" height="auto" />
+
+Moses is an experienced Ugandan Software Engineer with a background in PHP and JavaScript development. He's a participant in [ALX Africa](https://www.alxafrica.com/) and plays a crucial role in overall development.
+
+- **GitHub**: [kishea-dev](https://github.com/kishea-dev)
+- **LinkedIn**: [Moses Kisya](https://linkedin.com/in/moses-kisya)
+- **Email**: kishea.dev@gmail.com
+
 ### Johnson Ugwuanyi (Masino)
 
-![Image not found: /Vimojo/assets/masino.png](/Vimojo/assets/masino.jpeg "Image not found: /Vimojo/assets/masino.jpeg")
+<img alt="Masino" src="/Vimojo/assets/masino.jpeg"  width="48%" height="auto" />
 
 Johnson, a Nigerian Fullstack developer, focuses on Python development. He's also enrolled in [ALX Africa](https://www.alxafrica.com/) and is dedicated to back-end development for Vimojo.
 
