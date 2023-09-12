@@ -41,7 +41,8 @@ Users can easily log into the Vimojo deployed web address and make quick and eas
 
 ### Vivian Heavenian Dzrekey
 
-<img src="/Vimojo/assets/vivian.jfif" width="48%" height="auto" />
+![image](https://github.com/themrsgod/Vimojo/assets/117756339/8a60bf5f-586d-44c9-a57e-567a3caf82ad)
+
 
 Vivian, a passionate Ghanaian software engineer, specializes in front-end development. She runs her startup and is part of the [ALX Africa](https://www.alxafrica.com/) program, focusing on front-end development for this project.
 
@@ -51,7 +52,8 @@ Vivian, a passionate Ghanaian software engineer, specializes in front-end develo
 
 ### Moses Kisya
 
-<img alt="Moses Kisya" src="/Vimojo/assets/moses.jfif"  width="48%" height="auto" />
+![image](https://github.com/themrsgod/Vimojo/assets/117756339/85770587-6e44-4926-9584-0cf4f406bc29)
+
 
 Moses is an experienced Ugandan Software Engineer with a background in PHP and JavaScript development. He's a participant in [ALX Africa](https://www.alxafrica.com/) and plays a crucial role in overall development.
 
@@ -61,7 +63,8 @@ Moses is an experienced Ugandan Software Engineer with a background in PHP and J
 
 ### Johnson Ugwuanyi (Masino)
 
-<img alt="Masino" src="/Vimojo/assets/masino.jpeg"  width="48%" height="auto" />
+![image](https://github.com/themrsgod/Vimojo/assets/117756339/1be5f755-f04a-4fe1-81b7-ffa627e4cdbd)
+
 
 Johnson, a Nigerian Fullstack developer, focuses on Python development. He's also enrolled in [ALX Africa](https://www.alxafrica.com/) and is dedicated to back-end development for Vimojo.
 
