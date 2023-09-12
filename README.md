@@ -1,6 +1,7 @@
 # Welcome to Vimojo
 
-![Vimojo Logo](/Vimojo/assets/logo.png)
+![image](https://github.com/themrsgod/Vimojo/assets/117756339/55967caa-f6c7-492e-99e2-c193d65af331)
+
 
 Vimojo is your gateway to unique products from remote areas around the world. We connect businesses selling niche products to customers globally, making these exclusive items accessible for various purposes.
 
