@@ -75,16 +75,16 @@
 
     <p class="product-price">Price: ${{ product.price }}</p>
     <p class="product-description">{{ product.description }}</p>
-
+    <!--Paypal payment button-->
     <button type="button" id="paypalButton" class="modal-trigger">Buy with PayPal</button>
-    <!--button type="button" id="flutterwaveButton" class="modal-trigger">Buy with Flutterwave</button-->
+    <!--The test html markup payment gateway with flutterwave-->
     <form method="POST" action="https://checkout.flutterwave.com/v3/hosted/pay">
       <input type="hidden" name="public_key" value="FLWPUBK_TEST-3d24a64c35ed08e3149c9babab27b6ed-X" />
       <input type="hidden" name="customer[email]" value="jessepinkman@walterwhite.org" />
       <input type="hidden" name="customer[name]" value="Jesse Pinkman" />
       <input type="hidden" name="tx_ref" value="bitethtx-019203" />
-      <input type="hidden" name="amount" value="99.9" />
-      <input type="hidden" name="currency" value="$" />
+      <input type="hidden" name="amount" value="3400" />
+      <input type="hidden" name="currency" value="NGN" />
       <input type="hidden" name="meta[token]" value="54" />
       <input type="hidden" name="redirect_url" value="https://github.com/themrsgod/Vimojo/" />
       <button class="modal-trigger" type="submit" id="start-payment-button">Buy with flutterwave</button>
